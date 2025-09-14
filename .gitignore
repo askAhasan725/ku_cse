@@ -3,3 +3,6 @@
 
 # Ignore all .txt files
 *.txt
+
+# Ignore all .gitignore files
+*.gitignore
