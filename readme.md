@@ -1,3 +1,6 @@
+## কেউ শুরুতেই এই সলভ গুলা দেখিছ না, তুই নিজে আগে try কর তুই পারবি! না পারলে Then দেখ.........
+<br>
+
 ### Variables & Data Types
 1. [Input radius and calculate area and circumference of a circle](/01.c)
 2. [Swap two variables without using a third variable](/02.c)
