@@ -58,3 +58,17 @@
     - [Solution 01](/Prime/isPrime_01.c)
     - [Solution 02](/Prime/isPrime_02.c)
 2. [To See all prime numbers before n](/Prime/primeSeries.c)
+
+### Libary function of <string.h>
+1. To copy a string to onother, `strcpy`
+    - [Inside `main()` function](\LibaryFunction\strCopy.c)
+    - [Using a userdefine function](\LibaryFunction\strCopyUserdefine.c)
+
+2. To reverse a string
+    - [Insede `main()` function](\LibaryFunction\stringReverse.c)
+    - [Using userdefine function](\LibaryFunction\stringReverseUserdefine.c)
+
+3. String length
+    - [Insede `main()` function](\LibaryFunction\strLen.c)
+    - [Using userdefine function](\LibaryFunction\strLenUserdefine.c)
+    - [Buid a `sizeof()` like function]()
