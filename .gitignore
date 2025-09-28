@@ -1,8 +1,12 @@
-# Ignore all .exe files
+# Ignore all executable files
 *.exe
 
-# Ignore all .txt files
+# Ignore all text files
 *.txt
 
-# Ignore all .gitignore files
-*.gitignore
+# Ignore temp files created by VS Code
+.vscode/
+tempCodeRunnerFile.c
+
+# Ignore the .gitignore file itself
+.gitignore
