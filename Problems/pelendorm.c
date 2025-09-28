@@ -1,5 +1,17 @@
 #include <stdio.h>
 
+int strCmp(char str1[], char str2[])
+{
+    int i = 0;
+    while (str1[i] != '\0' && str2[i] != '\0')
+    {
+        if (str1[i] != str2[i])
+            return 1; // Not equal
+        i++;
+    }
+    return 0;
+}
+
 int main()
 {
     char string[100], reversed[100];
@@ -19,7 +31,7 @@ int main()
     reversed[length] = '\0';
 
     // Check if the string is a palindrome
-    if (strcmp(string, reversed) == 0)
+    if (strCmp(string, reversed) == 0)
         printf("The string is a palindrome.\n");
 
     else
