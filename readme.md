@@ -37,6 +37,23 @@
 14. [Multiply two matrices](/14.c)
 15. [Find the transpose of a matrix](/15.c)
 
+### Pointers
+
+16. [Swap two numbers using pointers](/16.c)
+17. Find the length of a string using pointers
+    - [Using pointer mentioned in question](/17index.c)
+    - [If sir don't mention abot pointer](/17pointer.c)
+18. [Demonstrate pointer arithmetic (addition, subtraction)](/18.c)
+
+<br>
+
+### Variable Scope & Static Variables
+
+19. [Demonstrate local and global variables](/19.c)
+20. [Show how a static variable retains its value across multiple function calls](/20.c)
+
+<br>
+
 
 <br><br>
 ## Extra
