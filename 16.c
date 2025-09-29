@@ -1,3 +1,16 @@
+/*
+A Small Concept on pointer:
+int *p, a;      //(Declearation of pointer variavle 'p' and a normal variable 'a')
+p = &a;         // p and &a, both of them are memory address. so 'p' point the address of 'a'
+
+hear    p   :  memory address of variable 'a'
+        *p  :  content of the memory address
+
+        a   :  content of the memory address
+        &a  :  memory address
+ */
+
+ 
 #include <stdio.h>
 
 int main()
