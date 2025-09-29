@@ -1,1 +1,1 @@
-count
+printf("Inside swap function: x = %d, y = %d\n", x, y);

@@ -43,7 +43,9 @@
 17. Find the length of a string using pointers
     - [Using pointer mentioned in question](/17index.c)
     - [If sir don't mention abot pointer](/17pointer.c)
-18. [Demonstrate pointer arithmetic (addition, subtraction)](/18.c)
+18. [Demonstrate pointer arithmetic (addition, subtraction)]
+    - [Using String](/18String.c)
+    - [Using Int Array](/18Array.c)
 
 <br>
 
@@ -53,6 +55,37 @@
 20. [Show how a static variable retains its value across multiple function calls](/20.c)
 
 <br>
+
+
+### Call by Value & Call by Reference
+
+21. [Swap two numbers using call by value](/21.c)
+22. [Swap two numbers using call by reference](/22.c)
+
+<br>
+
+### Strings
+
+23. Find the length of a string without using `strlen()`
+    - [without using `strlen()`](/23.c)
+    - [By using `strlen()`](/23UsingStrlen.c)
+24. Check if a string is a palindrome
+    - [Without any libary function](/24.c)
+    - [Using libary function](/24UsingLibaryFunction.c)
+25. Concatenate two strings without using `strcat()`
+    - [Without using `strcat()`](/25.c)
+    - [By using `strcat()`](/25UsingStrCat.c)
+26. [Count the number of vowels and consonants in a string](/26.c)
+
+<br>
+
+### Structures
+
+27. [Define a structure Student and display information of 5 students](/27.c)
+    - [Pre requeirment](/27Pre.c)
+28. [Add two complex numbers using structures](/28.c)
+29. [Store and display details of 5 books using an array of structures](/29.c)
+30. [Pass a structure to a function and display its contents](/30.c)
 
 
 <br><br>
