@@ -5,16 +5,19 @@ int main()
     char a = 'a', b = 'b';
 
     // init pointers
-    char *p1, *p2, *pTemp;
+    char *pA, *pB, *pTemp, temp; // temp is a void memory location and pTemp will point the location
 
     // assign memory address in pointers
-    p1 = &a;
-    p2 = &b;
-    char temp = a;
+    pA = &a; // pA store the address of variable a
+    pB = &b; // pB store the address of variable b
+    pTemp = &temp;
+    *pTemp = a; // to store the value of a to the temporary pointer variable.
 
     // sweep value
-    a = *p2;
-    b = *p1;
-    printf("a is: %c\n", *p1);
-    printf("b is: %c\n", *p1);
+    a = *pB;
+    b = *pTemp;
+    printf("a is: %c\n", a);
+    printf("b is: %c\n", b);
+
+    return 0;
 }
